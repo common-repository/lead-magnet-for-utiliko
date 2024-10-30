@@ -1,0 +1,263 @@
+/*CN CRM Page CSS Starts*/
+#wpforms-header,
+div#wpfooter,
+div#wpforms-flyout {
+    display: none;
+}
+
+.logo_header {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+img.logo-icon {
+    width: 12%;
+}
+
+.wrap {
+    margin: 10px 20px 0 0 !important;
+}
+
+h1.ttl_heading {
+    max-width: none;
+    font-weight: 700;
+    color: #1e5afa;
+    font-size: 24px;
+    text-align: center;
+    margin: 0 0 20px 0;
+}
+
+.gs-parts-wpform.crmInstructions {
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #6666c3;
+    padding: 50px;
+} 
+
+.gs-parts-wpform.crmInstructions,
+form.frm_ip_URL {
+    margin-left: 10px;
+}
+
+p.wpform-gs-alert-heading {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #242628;
+}
+
+.wpform-gs-alert-steps {
+    margin-top: 0;
+    margin-bottom: 20px;
+    padding-left: 0px;
+    list-style: none;
+}
+
+.wpform-gs-alert-steps li {
+    margin-bottom: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-weight: 500;
+    color: #7f868d;
+    position: relative;
+    margin-left: -19px;
+}
+
+.wpform-gs-alert-steps li::before { 
+    font-family: 'dashicons';
+    font-size: 16px;
+    line-height: 18px;
+    display: inline-block;
+    width: 18px;
+    margin-right: 8px;
+    content: '\f15e';
+    text-align: center;
+    vertical-align: -2px;
+    color: #fff;
+    border-radius: 50%;
+    background: #10AC84;
+}
+
+.form-field-mapping.crmUI {
+    width: 45%;
+    margin: 2% 0 0 0;
+}
+
+label.crmURL {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 0 10px 0 0;
+    display: contents;
+}
+
+input#input_data {
+    width: 60%;
+    padding: 3px;
+}
+
+.form-field-mapping.crmUIBtn {
+    width: 47%;
+    float: left;
+    display: flex;
+    justify-content: end;
+    margin: -3.73% 0 0 0;
+}
+
+input.button-primary-submit,
+button.btn_saveMapping {
+    background: linear-gradient(180deg, #1e5afa, #2493ef) !important;
+}
+
+input.button-primary-submit {
+    color: #fff;
+    border: 0;
+    border-radius: 6px !important;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    box-shadow: none;
+    padding: 9px 50px !important;
+    font-size: 14px !important;
+    margin: 2.2% 0 0 0;
+}
+
+label.lbl_field_names {
+    padding: 10px 0;
+    display: flex;
+    width: 15%;
+    justify-content: start;
+    float: left;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.form-field-mapping.div-form-label {
+    margin: 0 0 16px 0;
+}
+
+select.select_wpform_dropdown {
+    padding: 0 24px 0 15px;
+    width: 16rem;
+    max-width: 35rem;
+}
+
+select.lead_magnet_for_utiliko_select_dropdown {
+    width: 100%;
+}
+
+button.btn_saveMapping {
+    padding: 2px 25px 2px 25px !important;
+    font-size: 14px !important;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+}
+
+/*CN CRM Page CSS Ends*/
+/*Settings Page CSS Starts*/
+h1.ttl_crmSettings {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 7px;
+    color: #1e5afa;
+}
+
+h3.ttl_selectForm {
+    margin: 0.8em 0;
+}
+
+.wp-formSelect {
+    width: 9%;
+    float: left;
+}
+
+.wp-select {
+    margin: 14px 0 0 0;
+}
+
+.card {
+    box-sizing: border-box;
+    position: relative;
+    margin-top: 20px;
+    padding: 0.7em 2em 1em;
+    width: 100%;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+    background: #fff;
+    height: 50%;
+    max-width: initial;
+}
+
+div#inside {
+    width: 100%;
+    height: 450px;
+    padding-top: 20px;
+}
+
+p {
+    font-size: 14px;
+}
+
+/* Settings Page CSS Ends */
+
+/* Media CSS For Mobile Devices Starts */
+@media (max-width: 480px) {
+
+    .form-field-mapping.crmUI,
+    input#input_data,
+    .wp-formSelect,
+    select.select_wpform_dropdown,
+    label.lbl_field_names,
+    select.lead_magnet_for_utiliko_select_dropdown {
+        width: 100%;
+    }
+
+    .form-field-mapping.crmUIBtn {
+        width: 44%;
+        margin: 0;
+    }
+
+    .wrap.gs-form,
+    .form-field-mapping.div-form-label {
+        margin: 0 !important;
+    }
+
+    select.lead_magnet_for_utiliko_select_dropdown {
+        padding: 3px 0 4px 15px;
+    }
+
+    select.lead_magnet_for_utiliko_select_dropdown,
+    select#wpforms_select {
+        font-size: 14px;
+    }
+
+    div#inside {
+        padding-top: 0;
+        height: auto;
+        padding-bottom: 10px;
+    }
+
+    button.btn_saveMapping {
+        padding: 0px 25px 0px 25px !important;
+
+    }
+}
+/* Media CSS For Mobile Devices Ends */
+/* Media CSS For Tablet Devices Starts */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .wp-formSelect {
+        width: 18% !important;
+    }
+
+    .wrap.gs-form {
+        margin: 0 !important;
+    }
+
+    label.lbl_field_names {
+        width: 20%;
+    }
+}
+/* Media CSS For Tablet Devices Ends */
+
